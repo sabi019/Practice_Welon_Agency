@@ -18,11 +18,15 @@ The goal: turn raw campaign data into **actionable business insight** — identi
 
 ## Architecture
 
-![Pipeline architecture](images/architecture_pipeline.png)
+![Pipeline architecture]
+<img width="975" height="372" alt="image" src="https://github.com/user-attachments/assets/649a391a-86ff-45ae-ae84-885da87da780" />
+
 
 The pipeline runs in five layers — **data generation → SQLite storage → analysis → machine learning → interactive deployment** — and reproduces every result from a single notebook.
 
-![Analytical process](images/analysis_flowchart.png)
+![Analytical process]
+<img width="733" height="866" alt="image" src="https://github.com/user-attachments/assets/c99f8735-117b-4d62-8980-d1e1dcd49ffd" />
+
 
 ---
 
@@ -45,7 +49,9 @@ The pipeline runs in five layers — **data generation → SQLite storage → an
 
 ## Database schema
 
-![Database schema](images/database_schema.png)
+![Database schema] 
+<img width="975" height="486" alt="image" src="https://github.com/user-attachments/assets/9b2fe803-948a-4021-b3fc-f38f80e43240" />
+
 
 A SQLite database with two tables in a one-to-many relationship: each **client** owns many **campaigns**.
 
