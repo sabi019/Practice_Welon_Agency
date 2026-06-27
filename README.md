@@ -14,6 +14,8 @@ This project builds an end-to-end analytics system for **WELON AGENCY**, a digit
 
 The goal: turn raw campaign data into **actionable business insight** — identifying at-risk clients, the best-performing campaign types, and the optimal way to allocate budget.
 
+📸 All result screenshots: [SCREENSHOTS.md](SCREENSHOTS.md)
+
 ---
 
 ## Architecture
